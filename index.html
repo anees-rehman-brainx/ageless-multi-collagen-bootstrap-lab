@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/946d7e5886.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="SCSS/style.css">
+    <script src="script.js"></script>
+    <script src="jquery-3.6.3.min.js"></script>
+    
+</head>
+<body>
+
+  <div id="feedback">
+    <a href="#popup1">REVIEWS</a>
+  </div>
+    <div class="container-fluid m-0 p-0">
+      
+        <!-- Header -->
+        <div class="container-fluid header bg-primary text-light">
+            <div class="row ">
+              <!-- Hedaer fisrst col -->
+                <div class=" col-xxl-6 col-lg-5 col-md-4 col-sm-3 hide flex-fill mt-2 ">
+                  <img class="mb-1 mx-2" style="width: 40px;"  src="/icons/download" alt="">
+                  <span class=" text-hover-effect fs-5">EVERY ORDER CAN HELP END CHILDHOOD HUNGER</span> 
+                </div>
+
+                <!-- Header 2nd col-->
+                <div class="col mt-3 " >
+                  <div class="dropdown ">
+                    <a class="text-hover-effect dropdown-toggle text-light text-decoration-none fs-6" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span ><img src="." alt="."></span> Customer Support CUSTOMER SUPPORT
+                    </a>
+                  
+                    <div class="dropdown-menu bg-primary" aria-labelledby="dropdownMenuButton">
+                      <h3 class="text-center fs-4 text-light mt-1" >HOW CAN WE HELP YOU?</h3>
+                      <div class="chat d-flex mx-2 justify-content-center">
+                        <div class="text-center">
+                          <span><img src="" alt="."></span>
+                          <span class="text-light">24/7 Chat</span>
+                        </div>
+
+                        <div class="mx-2">
+                          <p class="text-success fs-4">24/7 CHAT</p>
+                          <p class="text-light">Get help now from Aidan, your BioTRUST product expert</p>
+                          <button class="btn btn-success text-light fs-6">CHAT NOW</button>
+                        </div>
+                      </div>
+                      
+                      <hr class="text-light">
+
+                      <div class="questions d-flex mx-2 ">
+                        <div class="">
+                          <img src="#ddddd" alt=".">
+                          <span class="text-light">Questions</span>
+                        </div>
+
+                        <div class="">
+                          <p class="text-success fs-4">Questions?</p>
+                          <p class="text-light">Get answers by visiting the customer help center</p>
+                          <button class="btn btn-success text-light fs-6">HELP CENTER</button>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Header 3rd col -->
+                <div class="col mt-3 ms-5 ">
+                  <div class="dropdown show">
+                    <a class="text-hover-effect  dropdown-toggle text-light text-decoration-none fs-6" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img style="width: 25px;height: 25px;" src="/icons/user" alt=""> MY ACCOUNT
+                    </a>
+                    <div class="dropdown-menu bg-primary text-light user-dropdown" aria-labelledby="dropdownMenuLink">
+                      <a class="dropdown-item text-light  " href="#">Purchase History</a>
+                      <a class="dropdown-item text-light" href="#">Manage Subscriptons</a>
+                      <a class="dropdown-item text-light" href="#">Track My Order</a>
+                      <a class="dropdown-item text-light" href="#">Forgot Password</a>
+                      <a class="dropdown-item text-light" href="#">Create Account</a>
+                      <a class="dropdown-item text-light" href="#">Customer Support</a>
+                      <a class="dropdown-item text-light" href="#">Login</a>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Header 4th col -->
+                <div class="col mt-3 text-hover-effect">
+                  <span><img style="width: 30px; height: 30px;" src="icons/cart.png" alt=""></span>
+                  <a href="" class="text-decoration-none text-light fs-6">
+                    MY CART (0)
+                  </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg border-5 border-bottom border-primary mb-4">
+            <!-- navbar logo -->
+            <a class="navbar-brand mx-5 my-0" href="#">
+                <img src="https://cdn.shopify.com/s/files/1/2451/8571/files/naturally-honest_911b83fb-85cd-42d6-8bc9-aab9bb97abb8_360x.png?v=1674668138" alt="">
+            </a>
+            <!-- Hidden toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navigation B -->
+            <div class="collapse navbar-collapse position-relative align-items-center" id="navbarSupportedContent" >
+              <ul class="navbar-nav mx-5">
+                <!-- Home nav dropdown menu -->
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle bg-primary text-white fs-6 fw-bold rounded btn  p-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        SHOP
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item text-primary" href="#">ALL PRODUCTS</a>
+                        <a class="dropdown-item text-primary" href="#">PROTIENS</a>
+                        <a class="dropdown-item text-primary" href="#">COLLAGEN PROTEIN</a>
+                        <a class="dropdown-item text-primary" href="#">IMMUNE SUPPORT</a>
+                        <a class="dropdown-item text-primary" href="#">HEALTHY LIVING</a>
+                        <a class="dropdown-item text-primary" href="#">DIGESTIVE HEALTH</a>
+                        <a class="dropdown-item text-primary" href="#">ANTI AGINg</a>
+                        <a class="dropdown-item text-primary" href="#">GEAR</a>
+                      </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-primary fs-6 fw-bold mt-3" href="#">QUALITY</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link text-primary fs-6 fw-bold mt-3" href="#">MISSION</a>
+                  </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-primary fs-6 fw-bold mt-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    #BIOTRUST
+                  </a>
+                  <div class="dropdown-menu text-primary" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item text-primary" href="#">OUR STORY</a>
+                    <a class="dropdown-item text-primary" href="#">OUR COACHES</a>
+                    <a class="dropdown-item text-primary" href="#">INSTAGRAM</a>
+                    <a class="dropdown-item text-primary" href="#">FACEBOOK</a>
+                    <a class="dropdown-item text-primary" href="#">PODCAST</a>
+                    <a class="dropdown-item text-primary" href="#">RECIPES</a>
+                    <a class="dropdown-item text-primary" href="#">NUTRITION</a>
+                    <a class="dropdown-item text-primary" href="#">FITNESS</a>
+                    <a class="dropdown-item text-primary" href="#">LIFESTYLE</a>
+                    <a class="dropdown-item text-primary" href="#">VIDEOS</a>
+                </li>
+                
+              </ul>
+              <div class="input-group w-25 position-absolute end-0 mx-5" >
+                <input type="text" class="form-control" placeholder="Search all products..." aria-label="Username" aria-describedby="basic-addon1">
+                <span class="input-group-text " id="basic-addon1"><img style="width: 30px; height: 30px;" src="/icons/search" alt=""></i></span>
+              </div>
+            </div>
+          </nav>
+
+         <a class="text-decoration-none text-primary fw-normal" href="">HOME > COLLAGEN PROTEIN</a> 
+         <!-- Gallery Section -->
+         <div class="container-fluid mt-2 border-bottom border-5  border-primary  ">
+                  
+          <div class="row  d-flex flex-lg-row flex-md-column flex-sm-column flex-wrap">
+              <!-- Left section carosal image galler --> 
+              <div class="leftSection col  d-flex justify-content-between">
+                <!-- Carosal in left>left gallery section -->
+                <div class="carosalInLeftn d-none d-lg-block mx-0 mx-lg-2">
+                  <div class="my-3 text-hover-effect">
+                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/Unflavored-4-Delicious-Flavors_40x40@2x.png?v=1657121683" alt="">
+                  </div>
+                    <img class="text-hover-effect" src="https://cdn.shopify.com/s/files/1/2451/8571/products/Unflavored-4-Delicious-Flavors_40x40@2x.png?v=1657121683" alt="">
+                  <div class="my-3 text-hover-effect">
+                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/collagen-flavors-sfp-va-sq_40x40@2x.png?v=1663863385" alt="">
+                  </div>
+                  <div class="my-3 text-hover-effect">
+                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/Unflavored-4-Delicious-Flavors_40x40@2x.png?v=1657121683" alt="">
+                  </div>
+                  <div class="my-3 text-hover-effect">
+                  <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/collagen-unflavored-5.17.21_40x40@2x.png?v=1657121683" alt="">
+                  </div>
+                  <div class="my-3 text-hover-effect">
+                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/Unflavored-4-Delicious-Flavors_40x40@2x.png?v=1657121683" alt="">
+                  </div>
+                  <div class="my-3 text-hover-effect">
+                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/collagen-flavors-vanilla_40x40@2x.png?v=1657121683" alt="">
+                  </div>
+                  <div class="my-3 text-hover-effect">
+                    <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/Unflavored-4-Delicious-Flavors_40x40@2x.png?v=1657121683" alt="">
+                  </div>
+                  <div class="my-3 text-hover-effect">
+                  <img src="https://cdn.shopify.com/s/files/1/2451/8571/products/thumbnail-square_6e8211ac-212d-4cbb-8607-940fdb15e9a4_40x40@2x.jpg?v=1663863385" alt="">
+                  </div>
+
+                </div>
+                <!-- Image in left>Right gallery section -->
+                <div class="rightSection mx-0 mx-lg-5 " >
+                  <div class="protien-powder-title text-center fs-3 text-primary">
+                    AGELESS MULTI-COLLAGEN® PROTEIN POWDER
+                  </div>
+                  <div class="star-review text-center">
+                    <span><img style="width: 70px;" src="https://cdn-icons-png.flaticon.com/512/218/218745.png" alt=""> <small class="text-primary">2909 Reviews</small></span>
+                  </div>
+                  <div class="zoom-img" style="text-align: center;">
+                    <img style="width: 75%;" class="protien-image" src="https://cdn.shopify.com/s/files/1/2451/8571/products/collagen-unflavored-5.17.21_1024x1024@2x.png?v=1657121683" alt="">
+                    <img class="d-lg-none d-sm-block mx-auto" src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/play-videos-button.png?14685469625969679257" alt="">
+                    <img width="80%" src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/free-report-image-1546015359856-1555446388183.png" alt="">
+                  </div>
+
+                
+
+
+                </div>
+              </div>
+              <!-- Right section in gallery -->
+              <div class="rightSection col">
+                <h4 class="text-center text-primary fs-3">Choose Your Package</h4>
+                <p class="text-center">Select you money-saving option below</p>
+                <div class="row">
+                  <div class="col btn btn-lg text-center bg-primary text-light fw-bold py-3">
+                    One-Time Purchase
+                  </div>
+                  <div class="col btn btn-lg text-center text-primary fw-normal border border-3 border-primary mx-2 position-relative py-3">
+                    Subscribe & Save 36%
+                    <span class="position-absolute top-0 start-100 translate-middle bg-success  rounded-circle text-light"  data-bs-toggle="tooltip" title="Some tooltip text!">?
+                      <span class="visually-hidden">New alerts</span>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="row my-5 d-flex align-items-center flex-lg-row flex-sm-column mx-1" >
+                  <!-- First column in right section -->
+                  <div class="col col1 text-center d-flex flex-sm-row flex-lg-column mt-sm-2 align-items-center justify-content-between" >
+                    <div class=" d-lg-none">
+                      <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-1-1571245639778.png" alt="">
+                    </div>
+                    <div class="di">
+                      <h4 class="text-center text-primary fs-1 mt-0 mt-lg-1">1 Bag</h4>
+                    <h4 class="text-center fs-1 mt-0 mt-lg-2 mb-0 mb-lg-5">$49</h4>
+                    </div>
+                    <div>
+                      <button class="btn btn-lg btn-success text-light mt-0 mt-lg-5 my-lg-3">CHOOSE FLAVOR</button>
+                    </div>
+                  </div>
+
+                  <!-- 2nd column in right section -->
+                  <div class="col col2 text-center d-flex flex-sm-row  align-items-center justify-content-between flex-lg-column mt-sm-2 position-relative" >
+                    <div class="position-absolute text-light bg-primary w-100 fw-bold fs-5 d-none d-lg-block">Most Popular</div>
+                    <div class="d-lg-none ">
+                      <img src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-3-1571245639780.png" alt="">
+                    </div>
+                    <div>
+                      <h4 class="text-center text-primary fs-1 mt-0 mt-lg-5">3 Bag</h4>
+                      <h4 class="text-success fs-1">$35</h4>
+                      <h4 class="text-success fs-1">Per Bag</h4>
+                      <h4 class="text-danger">(Save 28%)</h4>  
+                    </div>
+
+                    <div class="align-items-center">
+                      <button class="btn btn-lg btn-success text-light m-2">CHOOSE FLAVOR</button>
+                      <p class="text-primary d-lg-none">Most Popular !</p>
+                    </div>
+                  </div>
+
+                  <!-- 3rd column in right section  -->
+                  <div class="col col3 text-center d-flex flex-sm-row flex-lg-column align-items-center justify-content-between mt-sm-2" >
+                    <div class="image d-lg-none">
+                      <img  src="https://cdn.shopify.com/s/files/1/2451/8571/t/3/assets/buy-6-1571245639782.png" alt="">
+                    </div>
+                    <div>
+                      <h4 class="text-center text-primary fs-1">6 Bags</h4>
+                      <h4 class="text-success fs-1">$31</h4>
+                      <h4 class="text-success fs-1">Per Bag</h4>
+                      <h4 class="text-danger">(Save 36%)</h4>
+                    </div>
+                    <div>
+                      <button class="btn btn-lg btn-success text-light m-2">CHOOSE FLAVOR</button>
+                    </div>
+                  </div>
+                  
+                </div>
+
+                <!-- Carosal in right section -->
+                <p class="text-center text-primary fs-5">PHOTOS FROM THE #biotrust COMMUNITY</p>
+                <div id="carouselExampleControls" class="carousel slide m-4 bg-secondary" data-ride="carousel">
+                  <div class="carousel-inner bg-secondary">
+                    <div class="carousel-item active d-flex h-25 justify-content-center">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/47/18033143410352247/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/58/17961280669621058/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/7/17918106992366307/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/70/18153206221245170/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/47/18033143410352247/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/47/18033143410352247/standard_resolution.jpg" alt="First slide">
+                    </div>
+
+                    <div class="carousel-item d-flex h-25 justify-content-center">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/47/18033143410352247/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/58/17961280669621058/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/7/17918106992366307/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/70/18153206221245170/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/37/17900240207544037/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/47/18033143410352247/standard_resolution.jpg" alt="First slide">
+                    </div>
+                    <div class="carousel-item d-flex h-25 justify-content-center">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/47/18033143410352247/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/58/17961280669621058/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/7/17918106992366307/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/70/18153206221245170/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/68/18197896570157468/standard_resolution.jpg" alt="First slide">
+                      <img class="d-block w-15 h-25" src="https://cdn-yotpo-images-production.yotpo.com/instagram/47/18033143410352247/standard_resolution.jpg" alt="First slide">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+                    <span class="sr-only text-light">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon ms-5" aria-hidden="true"></span>
+                    <span class="sr-only text-light">Next</span>
+                  </a>
+                </div>
+              
+              </div>
+
+            </div>
+         </div>
+
+         <!-- Content & Text Section -->
+         <div class="content-section mx-5 my-5">
+          <div class="fs-5 fw-bold my-4">The No-Clump Multi-Collagen Protein Powder</div>
+          <div class="fw-bold">Ageless Multi-Collagen Provides You 5 Types of Collagen to Support:</div>
+          <ul>
+            <li>Healthy Skin, Hair, and NailsFootnote†</li>
+            <li>Gut, Joint, and Bone HealthFootnote†</li>
+            <li>Athletic Performance, Recovery, and an Active LifestyleFootnote†</li>
+          </ul>
+
+          <div class="fw-bold">Plus, Every Serving of Ageless Multi-Collagen is:</div>
+          <ul>
+            <li>Loaded with 10 Grams of Collagen Protein (per serving) including BioActive Collagen Peptides</li>
+            <li>A Complete Protein Source Featuring 140mg of Tryptophan</li>
+            <li>Tasteless and Odorless or Available in Delicious Flavors</li>
+            <li>Mixes Instantly WITHOUT Clumps (in hot or cool liquids)</li>
+          </ul>
+
+         </div>
+         
+         <!-- BEnifits and perks section -->
+         <!-- Responsiveness on small screen has to fixed yet.. -->
+         <div class="row  mx-0 my-1 d-flex ">
+          <div class="col-6 col-lg  mx-sm-0  bg-primary me-0 me-lg-1 text-center position-relative">
+            <img class="position-relative bottom-0 mt-5 mt-lg-0" style="top: -40px; width: 70px;" src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/60-day-money-back-guarantee.png?33286" alt="">
+            <div class="position-relative block text-light fs-6 text-center bottom-0" style=" bottom: 0;">60-DAY MONEY BACK GUARANTEE</div>
+          </div>
+
+          <div class="col-6 col-lg  mx-sm-0  bg-primary  me-0 me-lg-1 text-center position-relative">
+            <img class="position-relative bottom-0 mt-5 mt-lg-0" style="top: -40px; width: 70px;" src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/60-day-money-back-guarantee.png?33286" alt="">
+            <div class="position-relative block text-light fs-6 text-center bottom-0" style=" bottom: 0;">60-DAY MONEY BACK GUARANTEE</div>
+          </div>
+
+          <div class="col-6 col-lg  mx-sm-0  bg-primary  me-0 me-lg-1 text-center position-relative">
+            <img class="position-relative bottom- mt-5 mt-lg-0" style="top: -40px; width: 70px;" src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/60-day-money-back-guarantee.png?33286" alt="">
+            <div class="position-relative block text-light fs-6 text-center bottom-0" style=" bottom: 0;">60-DAY MONEY BACK GUARANTEE</div>
+          </div>
+
+          <div class="col-6 col-lg  mx-sm-0  bg-primary  text-center position-relative">
+            <img class="position-relative bottom-0 mt-5 mt-lg-0" style="top: -40px; width: 70px;" src="https://cdn.shopify.com/s/files/1/0009/2900/5634/files/60-day-money-back-guarantee.png?33286" alt="">
+            <div class="position-relative block text-light fs-6 text-center bottom-0" style=" bottom: 0;">60-DAY MONEY BACK GUARANTEE</div>
+          </div>
+         </div>
+
+         <!-- Footer section -->
+         <div class="footer d-flex flex-column flex-lg-row  bg-primary justify-content-evenly gap-5 align-items-sm-center align-items-md-center">
+            <div class="left align-content-end my-2 my-lg-5">
+              <p class="fs-1 fw-bold text-light text-center text-lg-end">FEATURED CUSTOMER REVIEW</p> 
+              <div class="text-success text-end fs-5 text-center text-lg-end">Read more reviews</div>
+            </div>
+
+            <div class="breaker bg-success my-4 d-none d-lg-flex" style="width: 10px; height:200px;">
+
+            </div>
+            <span class="breaker bg-success  d-block d-lg-none " style="height: 12px; width:75%;margin-left: auto;margin-right: auto;"></span>
+
+            <div class="right my-2 my-lg-5">
+              <div class="stars text-center">
+                <img style="width: 30%;" class="text-center" src="https://cdn.shopify.com/s/files/1/2451/8571/t/41/assets/featured_review_stars_small.png?v=115086123786708348821631221618" alt="stars">
+              </div>
+              <div class="fs-4 text-light text-center">"I love it! No taste or smell. I put it in my coffee first thing. Cuts my hunger and gives me energy."</div>
+              <div class="fs-4 text-light text-center">Jacqueline T. </div>
+              <div class="fs-4 text-success text-center">VERIFIED BUYER</div>
+            </div>
+         </div>
+
+
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
